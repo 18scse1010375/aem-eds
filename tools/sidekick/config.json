@@ -15,15 +15,16 @@
 
     {
 
-    "id": "contact-us-palette",
-    "title": "Contact US Palette",
+    "id" : "contact-us-palette",
+    "title" : "Contact US Palette",
       "environments": [ "edit", "dev", "preview", "live", "prod" ],
       "url": "/tools/contactus/contactus.html",
-    "IsPalette": true,
+    "isPalette": true,
     "passConfig": true,
     "passReferrer": true,
     "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width: 400px; height: calc(100vh60px)"
     },
+
     {
       "id": "contact-us-page",
       "title": "Contact US Page",
