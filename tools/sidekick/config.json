@@ -29,7 +29,7 @@
       "id": "contact-us-page",
       "title": "Contact US Page",
       "environments": [ "edit", "dev", "preview", "live", "prod" ],
-      "url": "/tools/contactus/contactus.html",
+      "url": "http://localhost:4502/editor.html/content/forms/af/today-geeks-form/testajaxcall_latest.html",
       "passConfig": true,
       "passReferrer": true
     } ,
