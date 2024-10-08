@@ -11,7 +11,23 @@
         "live",
         "prod"
       ],
-      "url": "https://www.google.com/search?q=edge+delivery+services"
+      "url": "https://www.google.com/search?q=edge+delivery+services",
+
+      "isPalette": true,
+      "passConfig":true,
+      "passReferrer": true,
+      "excludePaths":[
+        "**/fr/**"
+      ],
+      "includePaths": [
+        "**.docx**",
+        "**/fr/blocks/**"
+      ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+
+
+
+
     }
   ]
 }
