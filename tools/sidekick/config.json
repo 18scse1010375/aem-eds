@@ -1,15 +1,21 @@
 {
-  "project": "Geeks Edge Deliver Services",
+  "project": "aem-eds-main",
   "plugins": [
     {
       "id": "google-assist",
       "title": "Google Assist",
-      "environments": [ "edit","dev", "preview", "live", "prod"],
+      "environments": [
+        "edit",
+        "dev",
+        "preview",
+        "live",
+        "prod"
+      ],
       "url": "https://www.google.com/search?q=edge+delivery+services",
       "isPalette": true,
-      "passConfig":true,
+      "passConfig": true,
       "passReferrer": true,
-      "excludePaths":[
+      "excludePaths": [
         "**/fr/**"
       ],
       "includePaths": [
@@ -17,36 +23,9 @@
         "**/fr/blocks/**"
       ],
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-    },
-
-
-    {
-      "id": "tools",
-      "title": "Tools",
-      "isContainer": true
-    } ,
-
-    {
-      "containerId": "tools",
-      "id": "localize",
-      "title": "Localize",
-      "environments": [ "edit", "dev", "preview", "live", "prod" ],
-      "url": "https://www.microsoft.com/en-us/translator/business/translator-api/",
-      "passReferrer": true
-    },
-
-    {
-      "containerId": "tools",
-      "id": "youtube",
-      "title": "YouTube",
-      "environments": [ "edit", "dev", "preview", "live", "prod"  ] ,
-        "url": "https://www.youtube.com/@AEMGeeks",
-        "passReferrer": true
-      }
-
-
-      ]
-
-
-
+    }
+  ]
 }
+
+
+
