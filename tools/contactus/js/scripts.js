@@ -39,10 +39,17 @@ document.addEventListener("readystatechange", () => {
             };
             console.log("requestOptions====>" , requestOptions  );
 
-            fetch("http://localhost:5052/api/submit", requestOptions)
-              .then((response) =>{response.text()})
-              .then((result) => console.log(result))
-              .catch((error) => console.error(error));
+          fetch("http://localhost:5052/api/submit", requestOptions)
+                          .then((response) => response.text())
+                          .then((result) => {
+                              console.log(result);
+                              // Reset the form after successful submission
+                              form.reset();
+                              console.log("Form has been reset.");
+                          })
+                          .catch((error) => console.error(error));
+
+
     };
      form.addEventListener("submit", formSubmitHandler);
     }
