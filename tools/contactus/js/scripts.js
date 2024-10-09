@@ -25,7 +25,7 @@ document.addEventListener("readystatechange", () => {
 
             formdata.append("gdocument", referrer);
             formdata.append("project", project);
-            formdata.append("git repo", repo);
+            formdata.append("gitRepo", repo);
             formdata.append("name", document.getElementById("name").value);
             formdata.append("phone", document.getElementById("phone").value);
             formdata.append("email", document.getElementById("email").value);
