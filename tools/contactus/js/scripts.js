@@ -27,8 +27,9 @@ document.addEventListener("readystatechange", () => {
               redirect: "follow",
               mode:"no-cors",
             };
+            console.log("requestOptions====>" , requestOptions  );
 
-            fetch("https://webhook.site/c81b0d84-669e-4b5c-8070-98756b2b3dcb", requestOptions)
+            fetch("http://localhost:7072/api/authors", requestOptions)
               .then((response) =>{response.text()})
               .then((result) => console.log(result))
               .catch((error) => console.error(error));
