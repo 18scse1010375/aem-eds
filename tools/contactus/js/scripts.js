@@ -29,7 +29,7 @@ document.addEventListener("readystatechange", () => {
             };
             console.log("requestOptions====>" , requestOptions  );
 
-            fetch("http://localhost:7072/api/authors", requestOptions)
+            fetch("http://localhost:5052/api/submit", requestOptions)
               .then((response) =>{response.text()})
               .then((result) => console.log(result))
               .catch((error) => console.error(error));
