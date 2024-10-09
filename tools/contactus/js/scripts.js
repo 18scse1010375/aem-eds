@@ -1,4 +1,6 @@
 document.addEventListener("readystatechange", () => {
+
+    const form = document.forms[0];
     console.log("--Form has been loadded---");
     if (document.readyState == "complete") {
         const form = document.forms[0];
