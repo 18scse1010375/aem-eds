@@ -13,6 +13,12 @@ document.addEventListener("readystatechange", () => {
             const project=urlParams.get("project");
             const repo=urlParams.get("repo");
             const formdata = new FormData();
+
+            console.log("project------->" , project  );
+            console.log("referrer------>" , referrer  );
+            console.log("repo------->" , repo  );
+
+
             formdata.append("gdocument", referrer);
             formdata.append("project", project);
             formdata.append("git repo", repo);
