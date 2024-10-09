@@ -9,6 +9,8 @@ document.addEventListener("readystatechange", () => {
             const queryString = window.location.search;
             console.log(queryString);
             const urlParams = new URLSearchParams(queryString);
+
+            console.log("urlParams------->" , urlParams );
             const referrer=urlParams.get("referrer");
             const project=urlParams.get("project");
             const repo=urlParams.get("repo");
