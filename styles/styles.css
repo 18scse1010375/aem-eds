@@ -282,3 +282,25 @@ width : 70%;
 .enfuse-blog div h1{
    text-align : center ;
 }
+.enfuse-blog div h3{
+   text-align : center ;
+}
+
+.carousel-container .carousel-wrapper #carousel-1 .carousel-slides-container .carousel-navigation-buttons .slide-next{
+margin-right : 50px ;
+}
+
+.carousel-container .carousel-wrapper #carousel-1 .carousel-slides-container {
+width : 50% ;
+}
+
+.carousel-container .carousel-wrapper #carousel-1 .carousel-slides-container ul li{
+background : yellow;
+}
+
+.blog1 .cards-wrapper .cards.block ul li .cards-card-body h3{
+text-align : center ;
+}
+.blog1 .cards-wrapper .cards.block ul li .cards-card-body p{
+text-align : center ;
+}
