@@ -259,6 +259,26 @@ main .section.highlight {
     text-align: center;
 }
 
-.block1{
- background:red;
+.test-block-practise{
+ background : grey ;
+}
+
+#just-for-learning-purpose{
+ background : red;
+}
+
+.cards{
+  margin-top: 150px;
+}
+
+columns-img-col.picture{
+background : red;
+}
+
+.columns-img-col picture img{
+width : 70%;
+}
+
+.enfuse-blog div h1{
+   text-align : center ;
 }

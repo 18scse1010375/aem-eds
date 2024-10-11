@@ -19,7 +19,7 @@
   display: block;
 }
 
-@media (width >= 900px) {
+@media (width >= 400px) {
   .columns > div {
     align-items: center;
     flex-direction: unset;
@@ -31,3 +31,4 @@
     order: unset;
   }
 }
+
