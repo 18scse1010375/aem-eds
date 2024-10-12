@@ -320,10 +320,11 @@ text-align : center ;
 text-align : center ;
 }
 
-.feedback-blog .cards-wrapper .cards.block ul li .cards-card-body #operations-manager{
+.feedback-blog .cards-wrapper .cards.block ul li .cards-card-body h3{
 color : aqua ;
 }
 
 .feedback-blog .cards-wrapper .cards.block ul li .cards-card-body p{
 text-align : center ;
 }
+
