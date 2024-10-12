@@ -268,7 +268,7 @@ main .section.highlight {
 }
 
 .cards{
-  margin-top: 150px;
+  margin-top: 30px;
 }
 
 columns-img-col.picture{
@@ -311,7 +311,7 @@ text-align : center ;
 }
 
 
-.feedback-blog p{
+.feedback-blog .default-content-wrapper p{
 color : aqua ;
 text-align : center ;
 }
