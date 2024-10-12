@@ -1,7 +1,10 @@
+
 .cards > ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding : 0 ;
+
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
   grid-gap: 24px;
@@ -9,11 +12,13 @@
 
 .cards > ul > li {
   border: 1px solid #dadada;
+
   background-color: var(--background-color);
 }
 
 .cards .cards-card-body {
   margin: 16px;
+
 }
 
 .cards .cards-card-image {
@@ -24,4 +29,21 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.blog1 ul{
+list-style: none;
+    margin: 0;
+   padding-left : 120px ;
+   padding-right : 120px ;
+
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-gap: 24px;
+}
+
+.blog1 ul li{
+border : none ;
 }
