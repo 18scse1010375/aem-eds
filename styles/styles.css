@@ -298,6 +298,11 @@ width : 50% ;
 background : yellow;
 }
 
+.image-blog .cards-wrapper .cards.block ul li .cards-card-body p{
+text-align : center ;
+}
+
+
 .blog1 .cards-wrapper .cards.block ul li .cards-card-body h3{
 text-align : center ;
 }
