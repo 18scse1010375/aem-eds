@@ -47,3 +47,12 @@ list-style: none;
 .blog1 ul li{
 border : none ;
 }
+
+@media screen and (max-width: 430px) {
+  .blog1 .cards-wrapper {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    justify-content: center; /* Horizontally center the list items */
+    flex-wrap: wrap; /* Wrap items if they overflow */
+
+  }

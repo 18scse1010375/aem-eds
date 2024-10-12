@@ -309,3 +309,13 @@ text-align : center ;
 .blog1 .cards-wrapper .cards.block ul li .cards-card-body p{
 text-align : center ;
 }
+
+
+.feedback-blog p{
+color : aqua ;
+text-align : center ;
+}
+
+.feedback-blog h3{
+text-align : center ;
+}
