@@ -319,3 +319,11 @@ text-align : center ;
 .feedback-blog h3{
 text-align : center ;
 }
+
+.feedback-blog .cards-wrapper .cards.block ul li .cards-card-body #operations-manager{
+color : aqua ;
+}
+
+.feedback-blog .cards-wrapper .cards.block ul li .cards-card-body p{
+text-align : center ;
+}
