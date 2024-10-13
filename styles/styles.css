@@ -358,3 +358,13 @@ text-align : center ;
 footer .cards-container ul li{
 border : none ;
 }
+
+footer .cards-container ul li .cards-card-image{
+display: flex;
+  align-items: center;  /* Vertically center the icon and text */
+  justify-content: center;
+}
+
+footer .cards-container ul li img{
+ width : 20% ;
+}
