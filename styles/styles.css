@@ -328,3 +328,33 @@ color : aqua ;
 text-align : center ;
 }
 
+.footer{
+background : black ;
+ border-top-left-radius: 100px;
+
+}
+
+footer .cards-container ul li{
+background : black ;
+
+}
+
+footer .cards-container ul li h3{
+color : aqua ;
+text-align : center ;
+}
+
+footer .cards-card-body p a{
+color : white ;
+
+text-align : center ;
+
+}
+
+footer .cards-card-body p{
+text-align : center ;
+}
+
+footer .cards-container ul li{
+border : none ;
+}
